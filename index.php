@@ -1,5 +1,9 @@
 <?php
 
+require_once __DIR__ . '/Model/Product.php';
+
+$cuccia = new Product('Cuccia per cani di taglia piccola', 6.00, 'Cani', 'Cucce');
+var_dump($cuccia);
 
 ?>
 
