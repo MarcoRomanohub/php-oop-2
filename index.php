@@ -1,9 +1,15 @@
 <?php
 
 require_once __DIR__ . '/Model/Product.php';
+require_once __DIR__ . '/Model/Food.php';
+require_once __DIR__ . '/Model/Ingredients.php';
+
 
 $cuccia = new Product('Cuccia per cani di taglia piccola', 6.00, 'Cani', 'Cucce');
+$croccantini = new Food('croccantini gatti taglia piccola', 10.00, 'Gatti', 'Cibo', new Ingredients(['Manzo', 'Pollo']));
+
 var_dump($cuccia);
+var_dump($croccantini);
 
 ?>
 

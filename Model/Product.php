@@ -36,4 +36,10 @@ class Product
   {
     $this->type = $_type;
   }
+
+
+  public function getProductInfo()
+  {
+    return "$this->name $this->price $this->category $this->type";
+  }
 }
