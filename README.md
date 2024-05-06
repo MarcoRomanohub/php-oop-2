@@ -8,3 +8,4 @@ Stampiamo delle card contenenti i dettagli dei prodotti, come immagine, titolo, 
 Nel “modellizzare” i dati pensate alla differenza che c’è fra prodotti ( cibo,  giochi , cucce…) e categorie (cani, gatti…) e come rappresentarli
 Create prima una struttura logica e coerente e stampate tutto con var_dump()
 Solo un un secondo momento create un array di prodotti e stampatelo in pagina con un ciclo
+Aggiungere almeno un trait ed un exception al vostro shop!

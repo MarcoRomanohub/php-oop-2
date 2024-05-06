@@ -2,7 +2,10 @@
 
 require_once __DIR__ . '/Model/Product.php';
 require_once __DIR__ . '/Model/Food.php';
-require_once __DIR__ . '/Model/Ingredients.php';
+require_once __DIR__ . '/Model/Category.php';
+require_once __DIR__ . '/Model/Toy.php';
+require_once __DIR__ . '/Model/Accessory.php';
+require_once __DIR__ . '/Model/db.php';
 
 
 $cuccia = new Product('Cuccia per cani di taglia piccola', 6.00, 'Cani', 'Cucce');
